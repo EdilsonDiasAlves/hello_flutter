@@ -35,6 +35,6 @@ class Home extends StatelessWidget {
       hello = "Good Evening!";
     }
 
-    return "It's now ${hour}:${minute}.\n${hello}";
+    return "It's now $hour:$minute.\n$hello";
   }
 }
